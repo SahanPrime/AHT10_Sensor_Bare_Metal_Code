@@ -1,0 +1,2 @@
+../Src/peripherals.c:11:6:delay_ms	24	static,ignoring_inline_asm
+../Src/peripherals.c:17:6:clocks_init	4	static

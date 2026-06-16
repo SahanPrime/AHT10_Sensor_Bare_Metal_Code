@@ -1,0 +1,8 @@
+"./Src/aht10.o"
+"./Src/i2c.o"
+"./Src/main.o"
+"./Src/peripherals.o"
+"./Src/syscalls.o"
+"./Src/sysmem.o"
+"./Src/uart.o"
+"./Startup/startup_stm32l476rgtx.o"

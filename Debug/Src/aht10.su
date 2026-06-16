@@ -1,0 +1,2 @@
+../Src/aht10.c:13:6:aht10_init	8	static
+../Src/aht10.c:31:5:aht10_read	40	static

@@ -1,0 +1,5 @@
+../Src/uart.c:12:6:gpioa_init	1
+../Src/uart.c:29:6:usart2_init	1
+../Src/uart.c:38:6:uart_send_char	2
+../Src/uart.c:44:6:uart_send_string	2
+../Src/uart.c:48:6:print_float	2
