@@ -50,4 +50,3 @@ Using the HAL abstracts away what the hardware is actually doing. Writing direct
 - ST-Link debugger
 - PuTTY (UART monitoring)
 
-Just adjust the project structure section to match your actual folder layout. To edit it on GitHub, go to your repo → click `README.md` → click the pencil icon → paste this in → click **Commit changes**.
