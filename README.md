@@ -2,7 +2,7 @@
 
 A bare-metal firmware project for the STM32L476 microcontroller that reads temperature and humidity from an AHT10 sensor using direct register-level I2C communication.
 
-This project intentionally avoids the STM32 HAL and middleware layers. Instead, it configures the GPIO, clock tree, USART, and I2C peripherals by writing to the device registers directly using volatile pointers.
+This project intentionally avoids the STM32 HAL and middleware layers. Instead, it configures the GPIO, clock tree, USART, and I2C peripherals by writing to the device registers directly using volatile pointer dereferencing.
 
 ## Overview
 
@@ -16,6 +16,11 @@ The firmware:
 - reads the 6-byte payload from the sensor
 - converts the raw digital data into temperature and humidity values
 - prints the results over UART for debugging and monitoring
+
+## Project Demonstration Video
+
+For a detailed walkthrough and demonstration of this project in action, see:
+[Project Demonstration Video](https://drive.google.com/drive/folders/1aAJXdSrueDNbWBwonolHRsIhUjoRk1Im?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto)
 
 ## Hardware
 
